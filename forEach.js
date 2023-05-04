@@ -43,7 +43,7 @@ console.log(totalProductValue)
 
 // filter array 
 
-let numbers = [1, 2, 3, 4, 5]
+let numbers = [1, 2, 100, 3, 4, 5]
 const even = numbers.filter(isEven);
 
 function isEven(value) {
@@ -57,3 +57,23 @@ function sum(accumulator, value) {
     return accumulator + value
 }
 console.log(total)
+
+const max = numbers.reduce(callBack, -Infinity)
+
+function callBack(accumulator, value) {
+    if (accumulator > value) {
+        return accumulator
+    } else {
+        return value
+    }
+
+}
+console.log(max)
+
+// slice array 
+
+const number2 = numbers.slice(3)
+console.log(number2)
+
+
+// splice array 
