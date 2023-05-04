@@ -102,11 +102,11 @@
 
 
 
-const letters = ['a', 'b', 'c', 'd', 'e', 'f']
-function log(element, index) {
-    console.log(this)
-}
-const obj = {
-    name: 'value'
-}
-letters.forEach(log, obj)
+// const letters = ['a', 'b', 'c', 'd', 'e', 'f']
+// function log(element, index) {
+//     console.log(this)
+// }
+// const obj = {
+//     name: 'value'
+// }
+// letters.forEach(log, obj)
