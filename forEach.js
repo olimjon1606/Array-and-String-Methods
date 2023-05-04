@@ -77,3 +77,26 @@ console.log(number2)
 
 
 // splice array 
+
+numbers.splice(2, 3)
+
+// sorting 
+
+const ns = [23, 34, 1, 4, 364, 35, 556, 67, 3]
+ns.sort(compare)
+function compare(a, b) {
+    return a - b;
+}
+console.log(ns)
+
+
+// concat array 
+const a = [1, 2, 3]
+const b = [4, 5, 6]
+const d = [7, 8, 9]
+
+const c = a.concat(b)
+console.log(c)
+const f = a.concat(b,d,c)
+console.log(f)
+
