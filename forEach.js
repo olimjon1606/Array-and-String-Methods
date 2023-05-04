@@ -50,3 +50,10 @@ function isEven(value) {
     return value % 2 === 0
 }
 console.log(even)
+
+// reduce array 
+const total = numbers.reduce(sum, 0)
+function sum(accumulator, value) {
+    return accumulator + value
+}
+console.log(total)
