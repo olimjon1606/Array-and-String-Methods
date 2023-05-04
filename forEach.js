@@ -110,3 +110,10 @@
 //     name: 'value'
 // }
 // letters.forEach(log, obj)
+
+
+// string 
+const string = "Hello, world!"
+console.log(string.length)
+console.log(string.charAt(6))
+console.log(string.indexOf("hello",5))
