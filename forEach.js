@@ -19,3 +19,34 @@ const double = n.map((value, index, arr) => {
 
 console.log(double)
 
+// Map 
+const products = [
+    {
+        name: ' laptop',
+        price: 1000,
+        count: 5
+    },
+    {
+        name: ' desktop',
+        price: 1500,
+        count: 3
+    },
+    {
+        name: 'phone',
+        price: 800,
+        count: 10
+    }
+]
+
+const totalProductValue = products.map(item => item.price * item.count)
+console.log(totalProductValue)
+
+// filter array 
+
+let numbers = [1, 2, 3, 4, 5]
+const even = numbers.filter(isEven);
+
+function isEven(value) {
+    return value % 2 === 0
+}
+console.log(even)
